@@ -1,3 +1,3 @@
-# front-end
+# WebSite
 
 * Repositório para elaboração do site
