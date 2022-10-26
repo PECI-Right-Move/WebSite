@@ -161,27 +161,17 @@ class Hero extends React.Component {
                     </div>
                     <h3>Selected Idea</h3>
                     <p className="lead">
-                      Don't let your uses guess by attaching tooltips and
-                      popoves to any element. Just make sure you enable them
-                      first via JavaScript.
+                    Develop a low-cost, affordable tech solution for motion detection and analysis, with the help of smartphone's sensors.
                     </p>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                    Essentially recording arm and hand movements with simple markers (color and QR codes)
+                     and/or accessible sensors and cameras,this information will then be stored and can be studied by professionals.
                     </p>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                    the collected data will be available to be reviewed in a mixed reality where the optimal version of the movement
+                     vs the executed one will be exposed, giving room for improvement for industry workers.
                     </p>
-                    <a
-                      className="font-weight-bold text-warning mt-5"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      A beautiful UI Kit for impactful websites
-                    </a>
+                  
                   </div>
                 </Col>
               </Row>
@@ -206,8 +196,7 @@ class Hero extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                      Objectives{" "}
-                        <span>completed</span>
+                      Objectives
                       </h1>
                     </Col>
                   </Row>
