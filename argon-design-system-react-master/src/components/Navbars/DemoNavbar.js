@@ -110,7 +110,7 @@ class DemoNavbar extends React.Component {
                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
                   <NavItem className="d-none d-lg-block ml-lg-4">
                     <NavLink to="/Profile-page" tag={Link}>
-                      Profile
+                      Workplan
                     </NavLink>
                     
                   </NavItem>

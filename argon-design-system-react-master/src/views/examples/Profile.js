@@ -16,15 +16,15 @@
 
 */
 import React from "react";
-
+import "assets/vendor/nucleo/css/nucleo.css";
 // reactstrap components
-import { Button, Card, Container, Row, Col, Dropdown } from "reactstrap";
+import { Button, Card, Container, Row, Col, Dropdown, Badge } from "reactstrap";
 
 // core components
 import Dropdowns from "components/Dropdown/Dropdowns.js";
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import Meses from "components/Tabs/Meses.js";
+import Navs from "components/Tabs/Meses.js";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -67,9 +67,28 @@ class Profile extends React.Component {
           </section>
           
         </main>
+
+        <Container>
+          <Row>
+            <Col lg={{size: "auto"}}>
+              <span>
+                <h1 style={{color:"#172b4d"}}>Workplan</h1>
+              </span>
+            </Col>
+            <Col className="col-sm">
+              <span>
+                <Badge color="primary" pill>
+                  <i className="ni ni-archive-2"></i>
+                </Badge>
+              </span>
+            </Col>
+          </Row>
+        </Container>
+
         <Container>
           <Col className="col-sm">
-            <Meses></Meses>
+            <Navs>
+            </Navs>
           </Col>
         </Container>
       </>
