@@ -24,7 +24,7 @@ import { Button, Card, Container, Row, Col, Dropdown, Badge } from "reactstrap";
 import Dropdowns from "components/Dropdown/Dropdowns.js";
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import Navs from "components/Tabs/Meses.js";
+import Navs from "components/Tabs/Navs.js";
 
 class Profile extends React.Component {
   componentDidMount() {
