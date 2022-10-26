@@ -18,11 +18,13 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Card, Container, Row, Col } from "reactstrap";
+import { Button, Card, Container, Row, Col, Dropdown } from "reactstrap";
 
 // core components
+import Dropdowns from "components/Dropdown/Dropdowns.js";
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
+import Meses from "components/Tabs/Meses.js";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -63,28 +65,13 @@ class Profile extends React.Component {
               </svg>
             </div>
           </section>
-          <div className="shape-container d-flex align-items-center py-lg container">
-              <div className="col px-5">
-                <div className="align-items-center justify-content-center row">
-                  <div className="col-form-label-lg">
-
-                      <div className="shadow border-1 card">
-                        <h1 className="display-3 text-grey text-center">
-                          Workplan
-                        </h1>
-                        <div className="card-img">
-                          <img
-                            className="img-fluid"
-                            src={require("assets/img/ill/workplan.png")}
-                          />
-                        </div>
-                      </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          
         </main>
-
+        <Container>
+          <Col className="col-sm">
+            <Meses></Meses>
+          </Col>
+        </Container>
       </>
     );
   }
