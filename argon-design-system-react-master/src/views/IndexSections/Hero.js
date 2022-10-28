@@ -84,7 +84,7 @@ class Hero extends React.Component {
                       <Button
                         className="btn-icon mb-3 mb-sm-0"
                         color="github"
-                        href="https://github.com/tbsauce/PECI"
+                        href="https://github.com/PECI-Right-Move"
                         size="lg"
                         target="_blank"
                       >
