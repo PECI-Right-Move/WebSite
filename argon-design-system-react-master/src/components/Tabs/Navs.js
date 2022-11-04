@@ -42,7 +42,7 @@ class Navs extends React.Component {
                 href="#pablo"
                 role="tab"
               >
-                Outubro
+                Out
               </NavLink>
             </NavItem>
 
@@ -166,46 +166,68 @@ class Navs extends React.Component {
             <TabContent activeTab={"tabs" + this.state.tabs}>
               <TabPane tabId="tabs1">
                 <p className="description">
-                  Out
+                Project Chatter
+                </p>
+                <p className="description">
+                Plan review
+                </p>
+                <p className="description">
+                Fisrt presentation
                 </p>
 
               </TabPane>
               <TabPane tabId="tabs2">
                 <p className="description">
-                  Nov
+                  State of art
+                </p>
+                <p className="description">
+                  Communication Plan
+                </p>
+                <p className="description">
+                  Requirement Gathering
                 </p>
               </TabPane>
               <TabPane tabId="tabs3">
                 <p className="description">
-                  Dez
+                  System architecture elaboration 
                 </p>
               </TabPane>
 
               <TabPane tabId="tabs4">
                 <p className="description">
-                  Jan
+                  Elaboration of the first version of the tecnical report
+                </p>
+                <p className="description">
+                  Work on prototype
                 </p>
               </TabPane>
               <TabPane tabId="tabs5">
                 <p className="description">
-                  Fev
+                  Work on prototype
                 </p>
               </TabPane>
               <TabPane tabId="tabs6">
                 <p className="description">
-                  Marco
+                  Presentation of prototype
+                </p>
+                <p className="description">
+                  Work on project
                 </p>
               </TabPane>
 
               <TabPane tabId="tabs7">
                 <p className="description">
-                  Abril
+                  Work on project
                 </p>
+                
               </TabPane>
 
               <TabPane tabId="tabs8">
                 <p className="description">
-                  Maio
+                  Work on project 
+                </p>
+                <p className="description">
+                  presentation 
                 </p>
               </TabPane>
 
