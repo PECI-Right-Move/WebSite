@@ -149,7 +149,7 @@ class Hero extends React.Component {
                         Design System
                       </h4>
                       <p className="lead text-italic text-white">
-                        A motion capture system  that  will help users get to the best preformace they can get with the help of AR.
+                        A AR application that hepls untrained personnel to perform a manual task without the need of constant monitoring.
                       </p>
                     </blockquote>
                   </Card>
@@ -161,15 +161,15 @@ class Hero extends React.Component {
                     </div>
                     <h3>Selected Idea</h3>
                     <p className="lead">
-                    Develop a low-cost, affordable tech solution for motion detection and analysis, with the help of smartphone's sensors.
+                    Develop a app to Google glasses, the  main objective of the app is aid a user with the intent to perform a manual task with no prior experience, using a Extended Reality-based guidance.
                     </p>
                     <p>
-                    Essentially recording arm and hand movements with simple markers (color and QR codes)
-                     and/or accessible sensors and cameras,this information will then be stored and can be studied by professionals.
+                     The app will destinguish between boxes, both with  diferent pieces, colours and  shapes, the app will notify the user from wich box 
+                      to pick the piece and where to place it, the app will notify the user  when the  piece is missplaced.
                     </p>
                     <p>
-                    the collected data will be available to be reviewed in a mixed reality where the optimal version of the movement
-                     vs the executed one will be exposed, giving room for improvement for industry workers.
+                    The application in the final  be able to validate the correct postion but also orientation, making sure
+                      that the construction has no defects.
                     </p>
                   
                   </div>
@@ -233,20 +233,20 @@ class Hero extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Image processing and computer vision
+                            Box diferentiation and recognition
                           </h6>
                           <p className="description mt-3">
-                            Acquire superior limbs moviment, with the help of the sensors built in a smartphone
+                            Aquiring  infromaton  about the contents of the box, using a QR code presented in the box itself.
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
                               Vision
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              system
+                              QR Code
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              moviment
+                              Recognition
                             </Badge>
                           </div>
                           <Button
@@ -267,20 +267,20 @@ class Hero extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Register of moviments
+                            Piece recognition and placement
                           </h6>
                           <p className="description mt-3">
-                            Register of moviments preformed by a person in a working environment, so that the moviment preformed can be saw later.
+                            The  app will  know what piece was took form the box  identifiying the  piece  and  the  correct spot to place it.
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
-                              Storing
+                              Vision 
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              vision
+                              Recognition
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              success
+                              Placement
                             </Badge>
                           </div>
                           <Button
@@ -301,20 +301,20 @@ class Hero extends React.Component {
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Visualization of animated skeleton 
+                            Identification of missplaced pieces
                           </h6>
                           <p className="description mt-3">
-                            Visualization of a animated skeleton in a 3d environment,  enabling the analysis of the moviments preformed.
+                            The app will identify the  missplaced pieces and  will  alert the user about the  missplacement.
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
                               analysis
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              3D
+                              Errors
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              Visualization
+                              correction 
                             </Badge>
                           </div>
                           <Button

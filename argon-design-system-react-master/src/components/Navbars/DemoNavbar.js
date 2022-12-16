@@ -117,7 +117,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://github.com/tbsauce/PECI"
+                      href="https://github.com/PECI-Right-Move?type=source"
                       id="tooltip112445449"
                       target="_blank"
                     >
