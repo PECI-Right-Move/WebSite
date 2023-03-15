@@ -26,7 +26,7 @@ class ProgressSection extends React.Component {
       <>
         <Col lg="5">
           <h3 className="h4 text-success font-weight-bold mb-4">
-            Progress bars
+            Progress
           </h3>
           <div className="progress-wrapper">
             <div className="progress-info">
@@ -56,4 +56,4 @@ class ProgressSection extends React.Component {
   }
 }
 
-export default ProgressSection;
+export {ProgressSection};

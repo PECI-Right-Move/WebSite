@@ -33,8 +33,11 @@ import {
   InputGroup,
   Container,
   Row,
-  Col
+  Col,
+  Progress,
 } from "reactstrap";
+
+import { ProgressSection } from "./Progress";
 
 // core components
 import CardsFooter from "components/Footers/CardsFooter.js";
@@ -53,7 +56,7 @@ class Hero extends React.Component {
     return (
       <>
         <main ref="main">
-        <section className="section section-hero section-shaped">
+          <section className="section section-hero section-shaped">
             {/* Background circles */}
             <div className="shape shape-style-1 shape-default">
               <span className="span-150" />
@@ -77,9 +80,7 @@ class Hero extends React.Component {
                       src={require("assets/img/brand/2semfundo.png")}
                       style={{ width: "1000px" }}
                     />
-                    <p className="lead text-white">
-                      Project for PECI
-                    </p>
+                    <p className="lead text-white">Project for PECI</p>
                     <div className="btn-wrapper mt-5">
                       <Button
                         className="btn-icon mb-3 mb-sm-0"
@@ -91,9 +92,7 @@ class Hero extends React.Component {
                         <span className="btn-inner--icon mr-1">
                           <i className="fa fa-github" />
                         </span>
-                        <span className="btn-inner--text">
-                          Github
-                        </span>
+                        <span className="btn-inner--text">Github</span>
                       </Button>
                     </div>
                   </Col>
@@ -116,7 +115,7 @@ class Hero extends React.Component {
                 />
               </svg>
             </div>
-          </section>  
+          </section>
           <section className="section">
             <Container>
               <Row className="row-grid align-items-center">
@@ -125,7 +124,7 @@ class Hero extends React.Component {
                     <CardImg
                       alt="..."
                       src={require("assets/img/theme/esqueleto.jpg")}
-                      style={{ height:"90%" }}
+                      style={{ height: "90%" }}
                       top
                     />
                     <blockquote className="card-blockquote">
@@ -149,7 +148,9 @@ class Hero extends React.Component {
                         Design System
                       </h4>
                       <p className="lead text-italic text-white">
-                        A AR application that hepls untrained personnel to perform a manual task without the need of constant monitoring.
+                        A AR application that hepls untrained personnel to
+                        perform a manual task without the need of constant
+                        monitoring.
                       </p>
                     </blockquote>
                   </Card>
@@ -161,17 +162,22 @@ class Hero extends React.Component {
                     </div>
                     <h3>Selected Idea</h3>
                     <p className="lead">
-                    Develop a app to Google glasses, the  main objective of the app is aid a user with the intent to perform a manual task with no prior experience, using a Extended Reality-based guidance.
+                      Develop a app to Google glasses, the main objective of the
+                      app is aid a user with the intent to perform a manual task
+                      with no prior experience, using a Extended Reality-based
+                      guidance.
                     </p>
                     <p>
-                     The app will destinguish between boxes, both with  diferent pieces, colours and  shapes, the app will notify the user from wich box 
-                      to pick the piece and where to place it, the app will notify the user  when the  piece is missplaced.
+                      The app will destinguish between boxes, both with diferent
+                      pieces, colours and shapes, the app will notify the user
+                      from wich box to pick the piece and where to place it, the
+                      app will notify the user when the piece is missplaced.
                     </p>
                     <p>
-                    The application in the final  be able to validate the correct postion but also orientation, making sure
-                      that the construction has no defects.
+                      The application in the final be able to validate the
+                      correct postion but also orientation, making sure that the
+                      construction has no defects.
                     </p>
-                  
                   </div>
                 </Col>
               </Row>
@@ -195,9 +201,7 @@ class Hero extends React.Component {
                 <div className="col px-0">
                   <Row>
                     <Col lg="6">
-                      <h1 className="display-3 text-white">
-                      Objectives
-                      </h1>
+                      <h1 className="display-3 text-white">Objectives</h1>
                     </Col>
                   </Row>
                 </div>
@@ -236,7 +240,8 @@ class Hero extends React.Component {
                             Box diferentiation and recognition
                           </h6>
                           <p className="description mt-3">
-                            Aquiring  infromaton  about the contents of the box, using a QR code presented in the box itself.
+                            Aquiring infromaton about the contents of the box,
+                            using a QR code presented in the box itself.
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
@@ -270,11 +275,13 @@ class Hero extends React.Component {
                             Piece recognition and placement
                           </h6>
                           <p className="description mt-3">
-                            The  app will  know what piece was took form the box  identifiying the  piece  and  the  correct spot to place it.
+                            The app will know what piece was took form the box
+                            identifiying the piece and the correct spot to place
+                            it.
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
-                              Vision 
+                              Vision
                             </Badge>
                             <Badge color="success" pill className="mr-1">
                               Recognition
@@ -304,7 +311,8 @@ class Hero extends React.Component {
                             Identification of missplaced pieces
                           </h6>
                           <p className="description mt-3">
-                            The app will identify the  missplaced pieces and  will  alert the user about the  missplacement.
+                            The app will identify the missplaced pieces and will
+                            alert the user about the missplacement.
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
@@ -314,7 +322,7 @@ class Hero extends React.Component {
                               Errors
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              correction 
+                              correction
                             </Badge>
                           </div>
                           <Button
@@ -336,11 +344,16 @@ class Hero extends React.Component {
           <section className="section section-lg">
             <Container>
               <Row className="justify-content-center text-center mb-lg">
+                <ProgressSection></ProgressSection>
+              </Row>
+            </Container>
+          </section>
+          <section className="section section-lg">
+            <Container>
+              <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
                   <h2 className="display-3">Our team</h2>
-                  <p className="lead text-muted">
-                    
-                  </p>
+                  <p className="lead text-muted"></p>
                 </Col>
               </Row>
               <Row className="justify-content-center text-center mb-lg">
@@ -356,7 +369,6 @@ class Hero extends React.Component {
                       <h5 className="title">
                         <span className="d-block mb-1">Ricardo Covelo</span>
                       </h5>
-
                     </div>
                   </div>
                 </Col>
@@ -370,10 +382,11 @@ class Hero extends React.Component {
                     />
                     <div className="pt-4 text-center">
                       <h5 className="title">
-                        <span className="d-block mb-1">Catarina Barroqueiro</span>
+                        <span className="d-block mb-1">
+                          Catarina Barroqueiro
+                        </span>
                       </h5>
-                      <div className="mt-3">
-                      </div>
+                      <div className="mt-3"></div>
                     </div>
                   </div>
                 </Col>
@@ -387,14 +400,14 @@ class Hero extends React.Component {
                     />
                     <div className="pt-4 text-center">
                       <h5 className="title">
-                        <span className="d-block mb-1">Beatriz Rodriguez</span>
+                        <span className="d-block mb-1">Beatriz Rodrigues</span>
                       </h5>
                     </div>
                   </div>
                 </Col>
               </Row>
               <Row className="justify-content-center text-center mb-lg">
-              <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                <Col className="mb-5 mb-lg-0" lg="3" md="6">
                   <div className="px-4">
                     <img
                       alt="..."

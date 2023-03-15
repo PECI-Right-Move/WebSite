@@ -1,0 +1,55 @@
+.roadmapTitle{
+    font-size: 6em;
+    text-align: center;
+    font-family: "";
+    color: "#172b4d";
+}
+
+h3 {
+    padding-top: 0.25em;
+}
+
+h5 {
+    color: #172b4d8c;
+}
+
+.vertical-timeline-element-content {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.25),
+        0 0.4em 1.25em 0 rgba(0,0,0,0.15) !important;
+    padding: 2em 3em !important;
+}
+
+.date{
+    color: rgb(163, 142, 202)
+}
+
+#description {
+    margin: 1.5em 0 2em 0;
+}
+
+.mybutton {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    color: white;
+    text-decoration-color: white;
+}
+
+.developmentButton {
+    background-color: #172b4d;
+}
+.developmentButton:hover {
+    background-color: #213d6e;
+    color: white;
+    text-shadow: 5em;
+}
+
+.researchButton {
+    background-color:  #f5365c;
+}
+.researchButton:hover {
+    background-color: #df3154;
+    color: white;
+    text-shadow: 5em;
+
+}

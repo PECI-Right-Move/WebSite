@@ -128,7 +128,7 @@ Argon Design System React
     │   │   └── SimpleFooter.js
     │   └── Navbars
     │       └── DemoNavbar.js
-    ├── index.js
+    ├── App.js
     └── views
         ├── Index.js
         ├── IndexSections

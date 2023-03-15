@@ -26,6 +26,9 @@ import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
 import Navs from "components/Tabs/Navs.js";
 
+
+import Roadmap from "components/Roadmap/Roadmap";
+
 class Profile extends React.Component {
   componentDidMount() {
     document.documentElement.scrollTop = 0;
@@ -40,8 +43,6 @@ class Profile extends React.Component {
           <section className="section-profile-cover section-shaped my-0 position-relative">
             {/* Circles background */}
             <div className="shape shape-style-1 shape-default alpha-4 positon-relative">
-              <span />
-              <span />
               <span />
               <span />
               <span />
@@ -65,7 +66,6 @@ class Profile extends React.Component {
               </svg>
             </div>
           </section>
-          
         </main>
 
         <Container>
@@ -75,21 +75,11 @@ class Profile extends React.Component {
                 <h1 style={{color:"#172b4d"}}>Workplan</h1>
               </span>
             </Col>
-            <Col className="col-sm">
-              <span>
-                <Badge color="primary" pill>
-                  <i className="ni ni-archive-2"></i>
-                </Badge>
-              </span>
-            </Col>
           </Row>
         </Container>
 
         <Container>
-          <Col className="col-sm">
-            <Navs>
-            </Navs>
-          </Col>
+          <Roadmap/>
         </Container>
       </>
     );
