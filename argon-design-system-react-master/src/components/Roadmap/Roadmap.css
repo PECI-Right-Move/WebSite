@@ -6,13 +6,20 @@
 }
 
 h3 {
+    font-size: 1.3em;
     padding-top: 0.25em;
 }
 
 h5 {
-    color: #172b4d8c;
+    font-size: 1em;
+    color: #172b4d79;
 }
-
+h9384 {
+    font-size: 1em;
+    color: #4947cf23;
+    color: #f500561c;
+    color: #038ea118;
+}
 .vertical-timeline-element-content {
     box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.25),
         0 0.4em 1.25em 0 rgba(0,0,0,0.15) !important;
@@ -20,7 +27,7 @@ h5 {
 }
 
 .date{
-    color: rgb(163, 142, 202)
+    color: rgba(163, 142, 202, 0.815)
 }
 
 #description {
@@ -30,9 +37,10 @@ h5 {
 .mybutton {
     text-decoration: none;
     padding: 0.5em 1em;
-    border-radius: 10px;
+    border-radius: 19px;
     color: white;
     text-decoration-color: white;
+    margin-right: 0.5em;
 }
 
 .developmentButton {

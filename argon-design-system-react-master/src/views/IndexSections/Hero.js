@@ -148,9 +148,8 @@ class Hero extends React.Component {
                         Design System
                       </h4>
                       <p className="lead text-italic text-white">
-                        A AR application that hepls untrained personnel to
-                        perform a manual task without the need of constant
-                        monitoring.
+                      An application that uses AR ans XR concepts to help untrained personnel to perform 
+                      a manual task without the need of constant monitoring/supervision.
                       </p>
                     </blockquote>
                   </Card>
@@ -160,23 +159,19 @@ class Hero extends React.Component {
                     <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
                       <i className="ni ni-settings" />
                     </div>
-                    <h3>Selected Idea</h3>
+                    <h2>Selected Idea</h2>
                     <p className="lead">
-                      Develop a app to Google glasses, the main objective of the
-                      app is aid a user with the intent to perform a manual task
-                      with no prior experience, using a Extended Reality-based
-                      guidance.
+                    Develop an android app to assist the assembly of Lego figures on top of a Lego board, 
+                    giving the user the most Extended Reality-based guidance possible. 
+
                     </p>
                     <p>
-                      The app will destinguish between boxes, both with diferent
-                      pieces, colours and shapes, the app will notify the user
-                      from wich box to pick the piece and where to place it, the
-                      app will notify the user when the piece is missplaced.
+                    The app makes the recognition of piece sequences and piece type boxes through QR code reading. 
+                    It instructs the user to put the piece in specific coordinates on the board, and validates the action.
                     </p>
                     <p>
-                      The application in the final be able to validate the
-                      correct postion but also orientation, making sure that the
-                      construction has no defects.
+                    The application in it's final state must be able to validate the correct postion of the piece, 
+                    as well as the orientation on the 3D axis, making sure that the construction has no defects.
                     </p>
                   </div>
                 </Col>
@@ -201,7 +196,7 @@ class Hero extends React.Component {
                 <div className="col px-0">
                   <Row>
                     <Col lg="6">
-                      <h1 className="display-3 text-white">Objectives</h1>
+                      <h1 className="display-3 text-white">Goals</h1>
                     </Col>
                   </Row>
                 </div>
@@ -337,6 +332,37 @@ class Hero extends React.Component {
                       </Card>
                     </Col>
                   </Row>
+                    <Row>
+                      <Col lg="4">
+                        <Card className="card-lift--hover shadow border-0">
+                          <CardBody className="py-5">
+                            <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                              <i className="ni ni-istanbul" />
+                            </div>
+                            <h6 className="text-primary text-uppercase">
+                              Management feature and Creation of sets of instructions
+                            </h6>
+                            <p className="description mt-3">
+                              It will be possible to create a set of instructions and export it to the app. The user will be able
+                              to make a personalised assembly.
+                            </p>
+                            <div>
+                              <Badge color="primary" pill className="mr-1">
+                                Management interface
+                              </Badge>
+                            </div>
+                            <Button
+                              className="mt-4"
+                              color="primary"
+                              href="#pablo"
+                              onClick={(e) => e.preventDefault()}
+                            >
+                              Learn more
+                            </Button>
+                          </CardBody>
+                        </Card>
+                      </Col>
+                    </Row>
                 </Col>
               </Row>
             </Container>
