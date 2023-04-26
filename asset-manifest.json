@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/WebSite/static/css/main.bc32a313.css",
+    "main.js": "/WebSite/static/js/main.9b35989c.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/WebSite/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/sauce.jpeg": "/WebSite/static/media/sauce.c8ce1ad5c21e5f3f454b.jpeg",
+    "static/media/catarinaporquinha.jpeg": "/WebSite/static/media/catarinaporquinha.9a9a60fc4a570d59d250.jpeg",
+    "static/media/Rui.jpeg": "/WebSite/static/media/Rui.c40c39f977f2fb14396c.jpeg",
+    "static/media/fontawesome-webfont.eot": "/WebSite/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/WebSite/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/landing.jpg": "/WebSite/static/media/landing.530e5e3e621fe49e8e46.jpg",
+    "static/media/nucleo-icons.svg": "/WebSite/static/media/nucleo-icons.01ebecaf50461162d4bc.svg",
+    "static/media/ricky.jpg": "/WebSite/static/media/ricky.620f78e3cefee5cc9af7.jpg",
+    "static/media/profile.jpg": "/WebSite/static/media/profile.991e6d2c8d229cc026b3.jpg",
+    "static/media/bea.jpg": "/WebSite/static/media/bea.7f8257699bb5e739c106.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/WebSite/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/WebSite/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/esqueleto.jpg": "/WebSite/static/media/esqueleto.199b377d70c2ce048075.jpg",
+    "static/media/2semfundo.png": "/WebSite/static/media/2semfundo.5a3d434212df45f13e95.png",
+    "static/media/argon-react.png": "/WebSite/static/media/argon-react.128d71d316a8e92aff4a.png",
+    "static/media/nucleo-icons.eot": "/WebSite/static/media/nucleo-icons.19abb5402a664606b14c.eot",
+    "static/media/nucleo-icons.ttf": "/WebSite/static/media/nucleo-icons.d6a66724e7a7bf1bba65.ttf",
+    "static/media/nucleo-icons.woff": "/WebSite/static/media/nucleo-icons.c82c9b7c40130b7116d3.woff",
+    "static/media/nucleo-icons.woff2": "/WebSite/static/media/nucleo-icons.cba267483aa6a7cb6e33.woff2",
+    "static/media/google.svg": "/WebSite/static/media/google.48149cdc74f40f2a57323b472587cb9f.svg",
+    "static/media/github.svg": "/WebSite/static/media/github.6c95555646a0ecabf549179c97bf0e7d.svg",
+    "index.html": "/WebSite/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.bc32a313.css",
+    "static/js/main.9b35989c.js"
+  ]
+}
