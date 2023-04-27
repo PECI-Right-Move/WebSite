@@ -123,7 +123,7 @@ class Hero extends React.Component {
                   <Card className="bg-default shadow border-0">
                     <CardImg
                       alt="..."
-                      src={require("assets/img/theme/esqueleto.jpg")}
+                      src={require("assets/img/theme/legos.jpg")}
                       style={{ height: "90%" }}
                       top
                     />

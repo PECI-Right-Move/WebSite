@@ -1,11 +1,11 @@
 import React from "react";
 import "assets/vendor/nucleo/css/nucleo.css";
 // reactstrap components
-import {Container, Row, Col} from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
 // components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
-import Roadmap from "components/Roadmap/Roadmap";
+import Roadmap2 from "components/RoadMap2.0/App";
 
 class Workplan extends React.Component {
   componentDidMount() {
@@ -19,15 +19,16 @@ class Workplan extends React.Component {
         <DemoNavbar />
         <main className="profile-page" ref="main">
           <section className="section-profile-cover section-shaped my-0 position-relative">
-            {/* Circles background */}
+            {" "}
+            {/* Circles background */}{" "}
             <div className="shape shape-style-1 shape-default alpha-4 positon-relative">
               <span />
               <span />
               <span />
               <span />
               <span />
-            </div>
-            {/* SVG separator */}
+            </div>{" "}
+            {/* SVG separator */}{" "}
             <div className="separator separator-bottom separator-skew">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -41,14 +42,11 @@ class Workplan extends React.Component {
                   className="fill-white"
                   points="2560 0 2560 100 0 100"
                 />
-              </svg>
-            </div>
-          </section>
-        </main>
-
-        <Container>
-          <Roadmap/>
-        </Container>
+              </svg>{" "}
+            </div>{" "}
+          </section>{" "}
+        </main>{" "}
+        <Roadmap2 />
       </>
     );
   }

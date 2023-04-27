@@ -1,8 +1,12 @@
 {
-  "homepage": "https://peci-right-move.github.io/WebSite/",
   "name": "argon-design-system-react",
   "version": "1.1.1",
+  "description": "React version of Argon Design System by Creative Tim",
   "main": "App.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creativetimofficial/argon-design-system-react.git"
+  },
   "keywords": [
     "react",
     "reactjs",
@@ -18,14 +22,15 @@
     "argon-design-system-react",
     "design-system-react"
   ],
+  "author": "Creative Tim",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PECI-Right-Move/WebSite/issues"
+    "url": "https://github.com/creativetimofficial/argon-design-system-react/issues"
   },
+  "homepage": "https://demos.creative-tim.com/argon-design-system-react/",
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
+    "build": "react-scripts build && gulp licenses",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
@@ -44,24 +49,34 @@
   "dependencies": {
     "bootstrap": "4.3.1",
     "classnames": "2.3.1",
+    "gantt-schedule-timeline-calendar": "^3.33.13",
     "headroom.js": "0.12.0",
     "moment": "2.29.4",
     "nouislider": "14.1.1",
     "react": ">=16.0.0",
     "react-datetime": "3.1.1",
     "react-dom": ">=16.0.0",
+    "react-popup": "^0.11.0",
     "react-router-dom": "5.1.2",
     "react-scripts": "5.0.1",
+    "react-timelines": "^2.6.1",
     "react-vertical-timeline-component": "^3.6.0",
     "reactstrap": "8.4.1",
-    "remote-origin-url": "^2.0.0",
-    "sass": "1.53.0"
+    "sass": "1.53.0",
+    "styled-components": "^5.3.9"
   },
   "peerDependencies": {
     "react": ">=16.0.0",
     "react-dom": ">=16.0.0"
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "@types/googlemaps": "3.39.2",
+    "@types/markerclustererplus": "2.1.33",
+    "@types/react": "18.0.17",
+    "eslint-plugin-flowtype": "8.0.3",
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.9",
+    "jquery": "3.6.0",
+    "typescript": "4.7.4"
   }
 }

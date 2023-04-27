@@ -16,7 +16,7 @@
 
 */
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
 import "assets/vendor/nucleo/css/nucleo.css";
@@ -25,20 +25,18 @@ import "assets/scss/argon-design-system-react.scss?v1.1.0";
 
 import Index from "views/Index.js";
 import Workplan from "views/pages/Workplan.js";
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
-ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter>
-     <Switch>
-       <Route path="/" exact render={(props) => <Index {...props} />} />
-       <Route
+root.render(
+  <BrowserRouter>
+    <Switch>
+      <Route path="/" exact render={(props) => <Index {...props} />} />
+      <Route
         path="/profile-page"
-         exact
-         render={(props) => <Workplan {...props} />}
-       />
-       <Redirect to="/" />
-     </Switch>
-   </BrowserRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
+        exact
+        render={(props) => <Workplan {...props} />}
+      />
+      <Redirect to="/" />
+    </Switch>
+  </BrowserRouter>
 );

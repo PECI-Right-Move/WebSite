@@ -25,7 +25,6 @@ import DemoNavbar from "components/Navbars/DemoNavbar.js";
 
 // index page sections
 import Hero from "./IndexSections/Hero.js";
-import Roadmap from "components/Roadmap/Roadmap.js";
 
 class Index extends React.Component {
   componentDidMount() {
@@ -39,7 +38,7 @@ class Index extends React.Component {
         <DemoNavbar />
         <main ref="main">
           <Hero />
-        </main>
+        </main>{" "}
       </>
     );
   }
