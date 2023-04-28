@@ -332,37 +332,37 @@ class Hero extends React.Component {
                       </Card>
                     </Col>
                   </Row>
-                    <Row>
-                      <Col lg="4">
-                        <Card className="card-lift--hover shadow border-0">
-                          <CardBody className="py-5">
-                            <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                              <i className="ni ni-istanbul" />
-                            </div>
-                            <h6 className="text-primary text-uppercase">
-                              Management feature and Creation of sets of instructions
-                            </h6>
-                            <p className="description mt-3">
-                              It will be possible to create a set of instructions and export it to the app. The user will be able
-                              to make a personalised assembly.
-                            </p>
-                            <div>
-                              <Badge color="primary" pill className="mr-1">
-                                Management interface
-                              </Badge>
-                            </div>
-                            <Button
-                              className="mt-4"
-                              color="primary"
-                              href="#pablo"
-                              onClick={(e) => e.preventDefault()}
-                            >
-                              Learn more
-                            </Button>
-                          </CardBody>
-                        </Card>
-                      </Col>
-                    </Row>
+                  <Row className="row-grid">
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                            <i className="ni ni-istanbul" />
+                          </div>
+                          <h6 className="text-primary text-uppercase">
+                            Management feature and Creation of sets of instructions
+                          </h6>
+                          <p className="description mt-3">
+                            It will be possible to create a set of instructions and export it to the app. The user will be able
+                            to make a personalised assembly.
+                          </p>
+                          <div>
+                            <Badge color="primary" pill className="mr-1">
+                              Management interface
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="primary"
+                            href="#pablo"
+                            onClick={(e) => e.preventDefault()}
+                          >
+                            Learn more
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                  </Row>
                 </Col>
               </Row>
             </Container>
