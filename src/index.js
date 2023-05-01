@@ -25,6 +25,7 @@ import "assets/scss/argon-design-system-react.scss?v1.1.0";
 
 import Index from "views/Index.js";
 import Workplan from "views/pages/Workplan.js";
+import Catalogo from "views/examples/Catalogo.js";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
@@ -32,9 +33,14 @@ root.render(
     <Switch>
       <Route path="/" exact render={(props) => <Index {...props} />} />
       <Route
-        path="/profile-page"
+        path="/Workplan-page"
         exact
         render={(props) => <Workplan {...props} />}
+      />
+      <Route
+        path="/Catalog-page"
+        exact
+        render={(props) => <Catalogo {...props} />}
       />
       <Redirect to="/" />
     </Switch>

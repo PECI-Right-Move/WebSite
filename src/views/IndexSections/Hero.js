@@ -148,8 +148,9 @@ class Hero extends React.Component {
                         Design System
                       </h4>
                       <p className="lead text-italic text-white">
-                      An application that uses AR ans XR concepts to help untrained personnel to perform 
-                      a manual task without the need of constant monitoring/supervision.
+                        An application that uses AR ans XR concepts to help
+                        untrained personnel to perform a manual task without the
+                        need of constant monitoring/supervision.
                       </p>
                     </blockquote>
                   </Card>
@@ -161,17 +162,21 @@ class Hero extends React.Component {
                     </div>
                     <h2>Selected Idea</h2>
                     <p className="lead">
-                    Develop an android app to assist the assembly of Lego figures on top of a Lego board, 
-                    giving the user the most Extended Reality-based guidance possible. 
-
+                      Develop an android app to assist the assembly of Lego
+                      figures on top of a Lego board, giving the user the most
+                      Extended Reality-based guidance possible.
                     </p>
                     <p>
-                    The app makes the recognition of piece sequences and piece type boxes through QR code reading. 
-                    It instructs the user to put the piece in specific coordinates on the board, and validates the action.
+                      The app makes the recognition of piece sequences and piece
+                      type boxes through QR code reading. It instructs the user
+                      to put the piece in specific coordinates on the board, and
+                      validates the action.
                     </p>
                     <p>
-                    The application in it's final state must be able to validate the correct postion of the piece, 
-                    as well as the orientation on the 3D axis, making sure that the construction has no defects.
+                      The application in it's final state must be able to
+                      validate the correct postion of the piece, as well as the
+                      orientation on the 3D axis, making sure that the
+                      construction has no defects.
                     </p>
                   </div>
                 </Col>
@@ -333,6 +338,7 @@ class Hero extends React.Component {
                     </Col>
                   </Row>
                   <Row className="row-grid">
+                    <Col lg="4" />
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
@@ -340,11 +346,13 @@ class Hero extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Management feature and Creation of sets of instructions
+                            Management feature and Creation of sets of
+                            instructions
                           </h6>
                           <p className="description mt-3">
-                            It will be possible to create a set of instructions and export it to the app. The user will be able
-                            to make a personalised assembly.
+                            It will be possible to create a set of instructions
+                            and export it to the app. The user will be able to
+                            make a personalised assembly.
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
@@ -466,183 +474,6 @@ class Hero extends React.Component {
               </Row>
             </Container>
           </section>
-          {/* <section className="section section-lg pt-0">
-            <Container>
-              <Card className="bg-gradient-warning shadow-lg border-0">
-                <div className="p-5">
-                  <Row className="align-items-center">
-                    <Col lg="8">
-                      <h3 className="text-white">
-                        We made website building easier for you.
-                      </h3>
-                      <p className="lead text-white mt-3">
-                        I will be the leader of a company that ends up being
-                        worth billions of dollars, because I got the answers. I
-                        understand culture.
-                      </p>
-                    </Col>
-                    <Col className="ml-lg-auto" lg="3">
-                      <Button
-                        block
-                        className="btn-white"
-                        color="default"
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                        size="lg"
-                      >
-                        Download React
-                      </Button>
-                    </Col>
-                  </Row>
-                </div>
-              </Card>
-            </Container>
-          </section>
-          <section className="section section-lg bg-gradient-default">
-            <Container className="pt-lg pb-300">
-              <Row className="text-center justify-content-center">
-                <Col lg="10">
-                  <h2 className="display-3 text-white">Build something</h2>
-                  <p className="lead text-white">
-                    According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record low maximum sea ice extent tihs year down
-                    to low ice.
-                  </p>
-                </Col>
-              </Row>
-              <Row className="row-grid mt-5">
-                <Col lg="4">
-                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-settings text-primary" />
-                  </div>
-                  <h5 className="text-white mt-3">Building tools</h5>
-                  <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </Col>
-                <Col lg="4">
-                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-ruler-pencil text-primary" />
-                  </div>
-                  <h5 className="text-white mt-3">Grow your market</h5>
-                  <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </Col>
-                <Col lg="4">
-                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-atom text-primary" />
-                  </div>
-                  <h5 className="text-white mt-3">Launch time</h5>
-                  <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </Col>
-              </Row>
-            </Container>
-            <div className="separator separator-bottom separator-skew zindex-100">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="none"
-                version="1.1"
-                viewBox="0 0 2560 100"
-                x="0"
-                y="0"
-              >
-                <polygon
-                  className="fill-white"
-                  points="2560 0 2560 100 0 100"
-                />
-              </svg>
-            </div>
-          </section> 
-          <section className="section section-lg pt-lg-0 section-contact-us">
-            <Container>
-              <Row className="justify-content-center mt--300">
-                <Col lg="8">
-                  <Card className="bg-gradient-secondary shadow">
-                    <CardBody className="p-lg-5">
-                      <h4 className="mb-1">Want to work with us?</h4>
-                      <p className="mt-0">
-                        Your project is very important to us.
-                      </p>
-                      <FormGroup
-                        className={classnames("mt-5", {
-                          focused: this.state.nameFocused
-                        })}
-                      >
-                        <InputGroup className="input-group-alternative">
-                          <InputGroupAddon addonType="prepend">
-                            <InputGroupText>
-                              <i className="ni ni-user-run" />
-                            </InputGroupText>
-                          </InputGroupAddon>
-                          <Input
-                            placeholder="Your name"
-                            type="text"
-                            onFocus={(e) =>
-                              this.setState({ nameFocused: true })
-                            }
-                            onBlur={(e) =>
-                              this.setState({ nameFocused: false })
-                            }
-                          />
-                        </InputGroup>
-                      </FormGroup>
-                      <FormGroup
-                        className={classnames({
-                          focused: this.state.emailFocused
-                        })}
-                      >
-                        <InputGroup className="input-group-alternative">
-                          <InputGroupAddon addonType="prepend">
-                            <InputGroupText>
-                              <i className="ni ni-email-83" />
-                            </InputGroupText>
-                          </InputGroupAddon>
-                          <Input
-                            placeholder="Email address"
-                            type="email"
-                            onFocus={(e) =>
-                              this.setState({ emailFocused: true })
-                            }
-                            onBlur={(e) =>
-                              this.setState({ emailFocused: false })
-                            }
-                          />
-                        </InputGroup>
-                      </FormGroup>
-                      <FormGroup className="mb-4">
-                        <Input
-                          className="form-control-alternative"
-                          cols="80"
-                          name="name"
-                          placeholder="Type a message..."
-                          rows="4"
-                          type="textarea"
-                        />
-                      </FormGroup>
-                      <div>
-                        <Button
-                          block
-                          className="btn-round"
-                          color="default"
-                          size="lg"
-                          type="button"
-                        >
-                          Send Message
-                        </Button>
-                      </div>
-                    </CardBody>
-                  </Card>
-                </Col>
-              </Row>
-            </Container>
-          </section>
-          {/* <Download /> */}
         </main>
         {/* <CardsFooter /> */}
       </>

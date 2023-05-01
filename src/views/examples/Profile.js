@@ -26,7 +26,6 @@ import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
 import Navs from "components/Tabs/Navs.js";
 
-
 import Roadmap from "components/Roadmap/Roadmap";
 
 class Profile extends React.Component {
@@ -70,16 +69,16 @@ class Profile extends React.Component {
 
         <Container>
           <Row>
-            <Col lg={{size: "auto"}}>
+            <Col lg={{ size: "auto" }}>
               <span>
-                <h1 style={{color:"#172b4d"}}>Workplan</h1>
+                <h1 style={{ color: "#172b4d" }}>Workplan</h1>
               </span>
             </Col>
           </Row>
         </Container>
 
         <Container>
-          <Roadmap/>
+          <Roadmap />
         </Container>
       </>
     );
