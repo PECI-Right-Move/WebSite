@@ -122,7 +122,7 @@ class Catalogo extends React.Component {
               {/*!Pecas Catalogo*/}
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
-                  <h2 className="display-3 text-white ">Pieces</h2>
+                  <h2 className="display-3">Pieces</h2>
                   <p className="lead text-muted"></p>
                 </Col>
               </Row>

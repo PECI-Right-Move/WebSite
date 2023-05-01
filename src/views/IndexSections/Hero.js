@@ -26,15 +26,10 @@ import {
   Card,
   CardBody,
   CardImg,
-  FormGroup,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
+  Modal,
   Container,
   Row,
   Col,
-  Progress,
 } from "reactstrap";
 
 import { ProgressSection } from "./Progress";
@@ -47,6 +42,12 @@ import Download from "../IndexSections/Download.js";
 
 class Hero extends React.Component {
   state = {};
+  toggleModal = (state) => {
+    this.setState({
+      [state]: !this.state[state],
+    });
+  };
+
   componentDidMount() {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
@@ -258,10 +259,59 @@ class Hero extends React.Component {
                             className="mt-4"
                             color="primary"
                             href="#pablo"
-                            onClick={(e) => e.preventDefault()}
+                            onClick={() => this.toggleModal("defaultModal")}
                           >
                             Learn more
                           </Button>
+                          <Modal
+                            className="modal-dialog-centered"
+                            isOpen={this.state.defaultModal}
+                            toggle={() => this.toggleModal("defaultModal")}
+                          >
+                            <div className="modal-header">
+                              <h6
+                                className="modal-title"
+                                id="modal-title-default"
+                              >
+                                Type your modal title
+                              </h6>
+                              <button
+                                aria-label="Close"
+                                className="close"
+                                data-dismiss="modal"
+                                type="button"
+                                onClick={() => this.toggleModal("defaultModal")}
+                              >
+                                <span aria-hidden={true}>×</span>
+                              </button>
+                            </div>
+                            <div className="modal-body">
+                              <p>
+                                Far far away, behind the word mountains, far
+                                from the countries Vokalia and Consonantia,
+                                there live the blind texts. Separated they live
+                                in Bookmarksgrove right at the coast of the
+                                Semantics, a large language ocean.
+                              </p>
+                              <p>
+                                A small river named Duden flows by their place
+                                and supplies it with the necessary regelialia.
+                                It is a paradisematic country, in which roasted
+                                parts of sentences fly into your mouth.
+                              </p>
+                            </div>
+                            <div className="modal-footer">
+                              <Button
+                                className="ml-auto"
+                                color="primary"
+                                data-dismiss="modal"
+                                type="button"
+                                onClick={() => this.toggleModal("defaultModal")}
+                              >
+                                Close
+                              </Button>
+                            </div>
+                          </Modal>
                         </CardBody>
                       </Card>
                     </Col>
@@ -294,10 +344,59 @@ class Hero extends React.Component {
                             className="mt-4"
                             color="success"
                             href="#pablo"
-                            onClick={(e) => e.preventDefault()}
+                            onClick={() => this.toggleModal("defaultModal")}
                           >
                             Learn more
                           </Button>
+                          <Modal
+                            className="modal-dialog-centered"
+                            isOpen={this.state.defaultModal}
+                            toggle={() => this.toggleModal("defaultModal")}
+                          >
+                            <div className="modal-header">
+                              <h6
+                                className="modal-title text-success"
+                                id="modal-title-default"
+                              >
+                                Type your modal title
+                              </h6>
+                              <button
+                                aria-label="Close"
+                                className="close"
+                                data-dismiss="modal"
+                                type="button"
+                                onClick={() => this.toggleModal("defaultModal")}
+                              >
+                                <span aria-hidden={true}>×</span>
+                              </button>
+                            </div>
+                            <div className="modal-body">
+                              <p>
+                                Far far away, behind the word mountains, far
+                                from the countries Vokalia and Consonantia,
+                                there live the blind texts. Separated they live
+                                in Bookmarksgrove right at the coast of the
+                                Semantics, a large language ocean.
+                              </p>
+                              <p>
+                                A small river named Duden flows by their place
+                                and supplies it with the necessary regelialia.
+                                It is a paradisematic country, in which roasted
+                                parts of sentences fly into your mouth.
+                              </p>
+                            </div>
+                            <div className="modal-footer">
+                              <Button
+                                className="ml-auto"
+                                color="suceess"
+                                data-dismiss="modal"
+                                type="button"
+                                onClick={() => this.toggleModal("defaultModal")}
+                              >
+                                Close
+                              </Button>
+                            </div>
+                          </Modal>
                         </CardBody>
                       </Card>
                     </Col>
@@ -329,10 +428,59 @@ class Hero extends React.Component {
                             className="mt-4"
                             color="warning"
                             href="#pablo"
-                            onClick={(e) => e.preventDefault()}
+                            onClick={() => this.toggleModal("defaultModal")}
                           >
                             Learn more
                           </Button>
+                          <Modal
+                            className="modal-dialog-centered"
+                            isOpen={this.state.defaultModal}
+                            toggle={() => this.toggleModal("defaultModal")}
+                          >
+                            <div className="modal-header">
+                              <h6
+                                className="modal-title text-warning"
+                                id="modal-title-default"
+                              >
+                                Type your modal title
+                              </h6>
+                              <button
+                                aria-label="Close"
+                                className="close"
+                                data-dismiss="modal"
+                                type="button"
+                                onClick={() => this.toggleModal("defaultModal")}
+                              >
+                                <span aria-hidden={true}>×</span>
+                              </button>
+                            </div>
+                            <div className="modal-body">
+                              <p>
+                                Far far away, behind the word mountains, far
+                                from the countries Vokalia and Consonantia,
+                                there live the blind texts. Separated they live
+                                in Bookmarksgrove right at the coast of the
+                                Semantics, a large language ocean.
+                              </p>
+                              <p>
+                                A small river named Duden flows by their place
+                                and supplies it with the necessary regelialia.
+                                It is a paradisematic country, in which roasted
+                                parts of sentences fly into your mouth.
+                              </p>
+                            </div>
+                            <div className="modal-footer">
+                              <Button
+                                className="ml-auto"
+                                color="warning"
+                                data-dismiss="modal"
+                                type="button"
+                                onClick={() => this.toggleModal("defaultModal")}
+                              >
+                                Close
+                              </Button>
+                            </div>
+                          </Modal>
                         </CardBody>
                       </Card>
                     </Col>
@@ -342,10 +490,10 @@ class Hero extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                          <div className="icon icon-shape icon-shape-danger rounded-circle mb-4">
                             <i className="ni ni-istanbul" />
                           </div>
-                          <h6 className="text-primary text-uppercase">
+                          <h6 className="text-danger text-uppercase">
                             Management feature and Creation of sets of
                             instructions
                           </h6>
@@ -355,18 +503,67 @@ class Hero extends React.Component {
                             make a personalised assembly.
                           </p>
                           <div>
-                            <Badge color="primary" pill className="mr-1">
+                            <Badge color="danger" pill className="mr-1">
                               Management interface
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="primary"
+                            color="danger"
                             href="#pablo"
-                            onClick={(e) => e.preventDefault()}
+                            onClick={() => this.toggleModal("defaultModal")}
                           >
                             Learn more
                           </Button>
+                          <Modal
+                            className="modal-dialog-centered"
+                            isOpen={this.state.defaultModal}
+                            toggle={() => this.toggleModal("defaultModal")}
+                          >
+                            <div className="modal-header">
+                              <h6
+                                className="modal-title text-danger"
+                                id="modal-title-default"
+                              >
+                                Type your modal title
+                              </h6>
+                              <button
+                                aria-label="Close"
+                                className="close"
+                                data-dismiss="modal"
+                                type="button"
+                                onClick={() => this.toggleModal("defaultModal")}
+                              >
+                                <span aria-hidden={true}>×</span>
+                              </button>
+                            </div>
+                            <div className="modal-body">
+                              <p>
+                                Far far away, behind the word mountains, far
+                                from the countries Vokalia and Consonantia,
+                                there live the blind texts. Separated they live
+                                in Bookmarksgrove right at the coast of the
+                                Semantics, a large language ocean.
+                              </p>
+                              <p>
+                                A small river named Duden flows by their place
+                                and supplies it with the necessary regelialia.
+                                It is a paradisematic country, in which roasted
+                                parts of sentences fly into your mouth.
+                              </p>
+                            </div>
+                            <div className="modal-footer">
+                              <Button
+                                className="ml-auto"
+                                color="danger"
+                                data-dismiss="modal"
+                                type="button"
+                                onClick={() => this.toggleModal("defaultModal")}
+                              >
+                                Close
+                              </Button>
+                            </div>
+                          </Modal>
                         </CardBody>
                       </Card>
                     </Col>
