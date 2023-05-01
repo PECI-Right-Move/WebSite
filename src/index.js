@@ -25,6 +25,7 @@ import "assets/scss/argon-design-system-react.scss?v1.1.0";
 
 import Index from "views/Index.js";
 import Workplan from "views/pages/Workplan.js";
+import BrickBuilderView from "views/pages/BrickBuilderView";
 import Catalogo from "views/examples/Catalogo.js";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -36,6 +37,11 @@ root.render(
         path="/Workplan-page"
         exact
         render={(props) => <Workplan {...props} />}
+      />
+        <Route
+        path="/brick-builder"
+        exact
+        render={(props) => <BrickBuilderView {...props} />}
       />
       <Route
         path="/Catalog-page"

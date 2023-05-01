@@ -36,7 +36,7 @@ import {
   Container,
   Row,
   Col,
-  UncontrolledTooltip
+  UncontrolledTooltip,
 } from "reactstrap";
 
 class DemoNavbar extends React.Component {
@@ -47,18 +47,18 @@ class DemoNavbar extends React.Component {
   }
   state = {
     collapseClasses: "",
-    collapseOpen: false
+    collapseOpen: false,
   };
 
   onExiting = () => {
     this.setState({
-      collapseClasses: "collapsing-out"
+      collapseClasses: "collapsing-out",
     });
   };
 
   onExited = () => {
     this.setState({
-      collapseClasses: ""
+      collapseClasses: "",
     });
   };
 
@@ -76,7 +76,7 @@ class DemoNavbar extends React.Component {
                 <img
                   alt="..."
                   src={require("assets/img/brand/2semfundo.png")}
-                  style={{ height:"20%",width:"20%" }}
+                  style={{ height: "20%", width: "20%" }}
                 />
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
@@ -112,7 +112,11 @@ class DemoNavbar extends React.Component {
                     <NavLink to="/Workplan-page" tag={Link}>
                       Workplan
                     </NavLink>
-                    
+                  </NavItem>
+                  <NavItem className="d-none d-lg-block ml-lg-4">
+                    <NavLink to="/brick-builder" tag={Link}>
+                      Brick Builder
+                    </NavLink>
                   </NavItem>
                   <NavItem className="d-none d-lg-block ml-lg-4">
                     <NavLink to="/Catalog-page" tag={Link}>

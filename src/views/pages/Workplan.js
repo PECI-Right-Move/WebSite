@@ -1,7 +1,5 @@
 import React from "react";
 import "assets/vendor/nucleo/css/nucleo.css";
-// reactstrap components
-import { Container, Row, Col } from "reactstrap";
 
 // components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
