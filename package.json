@@ -27,11 +27,11 @@
   "bugs": {
     "url": "https://github.com/creativetimofficial/argon-design-system-react/issues"
   },
-  "homepage": "https://demos.creative-tim.com/argon-design-system-react/",
+  "homepage": "https://peci-right-move.github.io/WebSite/",
   "scripts": {
     "start": "react-scripts start --watch",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -77,6 +77,7 @@
     "@types/react": "18.0.17",
     "@webpack-cli/generators": "^3.0.2",
     "eslint-plugin-flowtype": "8.0.3",
+    "gh-pages": "^5.0.0",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.9",
     "jquery": "3.6.0",

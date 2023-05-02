@@ -32,6 +32,19 @@ class Catalogo extends React.Component {
     document.scrollingElement.scrollTop = 0;
     this.refs.main.scrollTop = 0;
   }
+  handleOpenPDF = () => {
+    const pdfUrl = 'assets/img/pieces.pdf';
+    fetch(pdfUrl)
+      .then(response => response.blob())
+      .then(blob => {
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.target = '_blank'; 
+        a.click();
+      });
+  }
+  
   render() {
     return (
       <>
@@ -120,12 +133,15 @@ class Catalogo extends React.Component {
                 </Col>
               </Row>
               {/*!Pecas Catalogo*/}
-              <Row className="justify-content-center text-center mb-lg">
-                <Col lg="8">
-                  <h2 className="display-3">Pieces</h2>
-                  <p className="lead text-muted"></p>
-                </Col>
-              </Row>
+              <Row className="justify-content-center text-center mb-lg py-5">
+              <Col lg="6" className="text-left">
+                <h1 className="display-3">Pieces</h1>
+                <p className="lead text-muted"></p>
+              </Col>
+              <Col lg="6" className="text-right">
+                <Button onClick={this.handleOpenPDF}>Download Pieces</Button>
+              </Col>
+            </Row>
               <Row className="justify-content-center">
                 <Col lg="12">
                   {[1, 2, 3, 4, 5, 6, 7].map((row) => (
