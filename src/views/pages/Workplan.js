@@ -5,12 +5,16 @@ import "assets/vendor/nucleo/css/nucleo.css";
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import Roadmap2 from "components/RoadMap2.0/App";
 
+// reactstrap components
+import { Card, CardBody } from "reactstrap";
+
 class Workplan extends React.Component {
   componentDidMount() {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
     this.refs.main.scrollTop = 0;
   }
+
   render() {
     return (
       <>
@@ -44,7 +48,19 @@ class Workplan extends React.Component {
             </div>{" "}
           </section>{" "}
         </main>{" "}
-        <Roadmap2 />
+        <div className="align-items-center"
+        style={{  margin: "auto",
+          width: "50%",
+          }}>
+          <Card
+            className="shadow border-0"
+            style={{ height: "90vh", width: "50vw" }}
+          >
+            <CardBody>
+              <Roadmap2 />
+            </CardBody>
+          </Card>
+        </div>
       </>
     );
   }
