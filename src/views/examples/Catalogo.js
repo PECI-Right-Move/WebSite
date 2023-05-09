@@ -123,7 +123,7 @@ class Catalogo extends React.Component {
                 <Col lg="12">
                   {[1].map((row) => (
                     <Row key={row} className="row-grid">
-                      {[1, 2, 3].map((col) => (
+                      {[1, 2, 3, 4, 5, 6, 7, 8].map((col) => (
                         <Col key={col} lg="4">
                           <Cards imgSrc={[row, col, "assemblys"]} />
                         </Col>
