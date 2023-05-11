@@ -65,7 +65,7 @@ class Catalogo extends React.Component {
                         <Button
                           className="btn-icon mb-3 mb-sm-0"
                           tag={Link}
-                          to="/Workplan-page"
+                          to="/brick-builder"
                         >
                           <span className="btn-inner--icon mr-1">
                             <i className="fa fa-code" />
@@ -74,7 +74,7 @@ class Catalogo extends React.Component {
                             Create Assembly
                           </span>
                         </Button>
-                        <Button href="https://github.com/PECI-Right-Move?type=source">
+                        <Button href="https://github.com/PECI-Right-Move/App-Overview">
                           <i className="fa fa-github" />
                           <span className="btn-inner--text">Catalog</span>
                         </Button>

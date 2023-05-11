@@ -273,7 +273,7 @@ class Hero extends React.Component {
                                 className="modal-title"
                                 id="modal-title-default"
                               >
-                                Type your modal title
+                                Box diferentiation and recognition
                               </h6>
                               <button
                                 aria-label="Close"
@@ -287,17 +287,18 @@ class Hero extends React.Component {
                             </div>
                             <div className="modal-body">
                               <p>
-                                Far far away, behind the word mountains, far
-                                from the countries Vokalia and Consonantia,
-                                there live the blind texts. Separated they live
-                                in Bookmarksgrove right at the coast of the
-                                Semantics, a large language ocean.
+                                {" "}
+                                The application scans the intended assembly,
+                                from the catalog provided on the website or
+                                Github, this QRcode will identify the pieces of
+                                the assembly and the order to place them.
                               </p>
                               <p>
-                                A small river named Duden flows by their place
-                                and supplies it with the necessary regelialia.
-                                It is a paradisematic country, in which roasted
-                                parts of sentences fly into your mouth.
+                                {" "}
+                                After knowing the order of the pices it will be
+                                necessary to scan the QRcode of the piece to be
+                                placed which cointains the id, color and
+                                dimensions of the piece.
                               </p>
                             </div>
                             <div className="modal-footer">
@@ -358,7 +359,7 @@ class Hero extends React.Component {
                                 className="modal-title text-success"
                                 id="modal-title-default"
                               >
-                                Type your modal title
+                                Piece recognition and placement
                               </h6>
                               <button
                                 aria-label="Close"
@@ -372,17 +373,10 @@ class Hero extends React.Component {
                             </div>
                             <div className="modal-body">
                               <p>
-                                Far far away, behind the word mountains, far
-                                from the countries Vokalia and Consonantia,
-                                there live the blind texts. Separated they live
-                                in Bookmarksgrove right at the coast of the
-                                Semantics, a large language ocean.
-                              </p>
-                              <p>
-                                A small river named Duden flows by their place
-                                and supplies it with the necessary regelialia.
-                                It is a paradisematic country, in which roasted
-                                parts of sentences fly into your mouth.
+                                The application will know what piece was taken
+                                and where it should be placed, using the QRcode
+                                if the user gets it wrong the app will wait for
+                                the user to scan the right piece.
                               </p>
                             </div>
                             <div className="modal-footer">
@@ -442,7 +436,7 @@ class Hero extends React.Component {
                                 className="modal-title text-warning"
                                 id="modal-title-default"
                               >
-                                Type your modal title
+                                Identification of missplaced pieces
                               </h6>
                               <button
                                 aria-label="Close"
@@ -456,17 +450,11 @@ class Hero extends React.Component {
                             </div>
                             <div className="modal-body">
                               <p>
-                                Far far away, behind the word mountains, far
-                                from the countries Vokalia and Consonantia,
-                                there live the blind texts. Separated they live
-                                in Bookmarksgrove right at the coast of the
-                                Semantics, a large language ocean.
-                              </p>
-                              <p>
-                                A small river named Duden flows by their place
-                                and supplies it with the necessary regelialia.
-                                It is a paradisematic country, in which roasted
-                                parts of sentences fly into your mouth.
+                                The user must position the piece at the
+                                indicated coordinates, and later the application
+                                will recognize if the user placed the piced
+                                correctly if not it will continue to notify the
+                                user until he gets it right.
                               </p>
                             </div>
                             <div className="modal-footer">
@@ -525,7 +513,8 @@ class Hero extends React.Component {
                                 className="modal-title text-danger"
                                 id="modal-title-default"
                               >
-                                Type your modal title
+                                Management feature and Creation of sets of
+                                instructions
                               </h6>
                               <button
                                 aria-label="Close"
@@ -539,17 +528,11 @@ class Hero extends React.Component {
                             </div>
                             <div className="modal-body">
                               <p>
-                                Far far away, behind the word mountains, far
-                                from the countries Vokalia and Consonantia,
-                                there live the blind texts. Separated they live
-                                in Bookmarksgrove right at the coast of the
-                                Semantics, a large language ocean.
-                              </p>
-                              <p>
-                                A small river named Duden flows by their place
-                                and supplies it with the necessary regelialia.
-                                It is a paradisematic country, in which roasted
-                                parts of sentences fly into your mouth.
+                                In the current website the user should be able
+                                to create an assembly with a set of instructions
+                                and the website will generate a QRcode that the
+                                user can scan with the app and the app will
+                                start the assembly.
                               </p>
                             </div>
                             <div className="modal-footer">

@@ -122,12 +122,11 @@ class DemoNavbar extends React.Component {
                     <NavLink to="/Catalog-page" tag={Link}>
                       Catalog
                     </NavLink>
-                    
                   </NavItem>
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://github.com/PECI-Right-Move?type=source"
+                      href="https://github.com/PECI-Right-Move/App-Overview"
                       id="tooltip112445449"
                       target="_blank"
                     >
