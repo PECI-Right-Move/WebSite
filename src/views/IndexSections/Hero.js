@@ -235,7 +235,7 @@ class Hero extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                            <i className="ni ni-check-bold" />
+                            <i className="ni ni-camera-compact" />
                           </div>
                           <h6 className="text-primary text-uppercase">
                             Box diferentiation and recognition
@@ -259,14 +259,14 @@ class Hero extends React.Component {
                             className="mt-4"
                             color="primary"
                             href="#pablo"
-                            onClick={() => this.toggleModal("defaultModal")}
+                            onClick={() => this.toggleModal("firstModal")}
                           >
                             Learn more
                           </Button>
                           <Modal
                             className="modal-dialog-centered"
-                            isOpen={this.state.defaultModal}
-                            toggle={() => this.toggleModal("defaultModal")}
+                            isOpen={this.state.firstModal}
+                            toggle={() => this.toggleModal("firstModal")}
                           >
                             <div className="modal-header">
                               <h6
@@ -280,7 +280,7 @@ class Hero extends React.Component {
                                 className="close"
                                 data-dismiss="modal"
                                 type="button"
-                                onClick={() => this.toggleModal("defaultModal")}
+                                onClick={() => this.toggleModal("firstModal")}
                               >
                                 <span aria-hidden={true}>×</span>
                               </button>
@@ -307,7 +307,7 @@ class Hero extends React.Component {
                                 color="primary"
                                 data-dismiss="modal"
                                 type="button"
-                                onClick={() => this.toggleModal("defaultModal")}
+                                onClick={() => this.toggleModal("firstModal")}
                               >
                                 Close
                               </Button>
@@ -320,7 +320,7 @@ class Hero extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                            <i className="ni ni-istanbul" />
+                            <i className="ni ni-app" />
                           </div>
                           <h6 className="text-success text-uppercase">
                             Piece recognition and placement
@@ -345,14 +345,14 @@ class Hero extends React.Component {
                             className="mt-4"
                             color="success"
                             href="#pablo"
-                            onClick={() => this.toggleModal("defaultModal")}
+                            onClick={() => this.toggleModal("secondModal")}
                           >
                             Learn more
                           </Button>
                           <Modal
                             className="modal-dialog-centered"
-                            isOpen={this.state.defaultModal}
-                            toggle={() => this.toggleModal("defaultModal")}
+                            isOpen={this.state.secondModal}
+                            toggle={() => this.toggleModal("secondModal")}
                           >
                             <div className="modal-header">
                               <h6
@@ -366,7 +366,7 @@ class Hero extends React.Component {
                                 className="close"
                                 data-dismiss="modal"
                                 type="button"
-                                onClick={() => this.toggleModal("defaultModal")}
+                                onClick={() => this.toggleModal("secondModal")}
                               >
                                 <span aria-hidden={true}>×</span>
                               </button>
@@ -382,10 +382,10 @@ class Hero extends React.Component {
                             <div className="modal-footer">
                               <Button
                                 className="ml-auto"
-                                color="suceess"
+                                color="success"
                                 data-dismiss="modal"
                                 type="button"
-                                onClick={() => this.toggleModal("defaultModal")}
+                                onClick={() => this.toggleModal("secondModal")}
                               >
                                 Close
                               </Button>
@@ -398,7 +398,7 @@ class Hero extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                            <i className="ni ni-planet" />
+                            <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-warning text-uppercase">
                             Identification of missplaced pieces
@@ -422,14 +422,14 @@ class Hero extends React.Component {
                             className="mt-4"
                             color="warning"
                             href="#pablo"
-                            onClick={() => this.toggleModal("defaultModal")}
+                            onClick={() => this.toggleModal("thirdModal")}
                           >
                             Learn more
                           </Button>
                           <Modal
                             className="modal-dialog-centered"
-                            isOpen={this.state.defaultModal}
-                            toggle={() => this.toggleModal("defaultModal")}
+                            isOpen={this.state.thirdModal}
+                            toggle={() => this.toggleModal("thirdModal")}
                           >
                             <div className="modal-header">
                               <h6
@@ -443,7 +443,7 @@ class Hero extends React.Component {
                                 className="close"
                                 data-dismiss="modal"
                                 type="button"
-                                onClick={() => this.toggleModal("defaultModal")}
+                                onClick={() => this.toggleModal("thirdModal")}
                               >
                                 <span aria-hidden={true}>×</span>
                               </button>
@@ -463,7 +463,7 @@ class Hero extends React.Component {
                                 color="warning"
                                 data-dismiss="modal"
                                 type="button"
-                                onClick={() => this.toggleModal("defaultModal")}
+                                onClick={() => this.toggleModal("thirdModal")}
                               >
                                 Close
                               </Button>
@@ -479,7 +479,7 @@ class Hero extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-danger rounded-circle mb-4">
-                            <i className="ni ni-istanbul" />
+                            <i className="ni ni-fat-add" />
                           </div>
                           <h6 className="text-danger text-uppercase">
                             Management feature and Creation of sets of
@@ -499,14 +499,14 @@ class Hero extends React.Component {
                             className="mt-4"
                             color="danger"
                             href="#pablo"
-                            onClick={() => this.toggleModal("defaultModal")}
+                            onClick={() => this.toggleModal("fourthModal")}
                           >
                             Learn more
                           </Button>
                           <Modal
                             className="modal-dialog-centered"
-                            isOpen={this.state.defaultModal}
-                            toggle={() => this.toggleModal("defaultModal")}
+                            isOpen={this.state.fourthModal}
+                            toggle={() => this.toggleModal("fourthModal")}
                           >
                             <div className="modal-header">
                               <h6
@@ -521,7 +521,7 @@ class Hero extends React.Component {
                                 className="close"
                                 data-dismiss="modal"
                                 type="button"
-                                onClick={() => this.toggleModal("defaultModal")}
+                                onClick={() => this.toggleModal("fourthModal")}
                               >
                                 <span aria-hidden={true}>×</span>
                               </button>
@@ -541,7 +541,7 @@ class Hero extends React.Component {
                                 color="danger"
                                 data-dismiss="modal"
                                 type="button"
-                                onClick={() => this.toggleModal("defaultModal")}
+                                onClick={() => this.toggleModal("fourthModal")}
                               >
                                 Close
                               </Button>
