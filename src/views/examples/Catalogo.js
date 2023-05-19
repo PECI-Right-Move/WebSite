@@ -32,19 +32,7 @@ class Catalogo extends React.Component {
     document.scrollingElement.scrollTop = 0;
     this.refs.main.scrollTop = 0;
   }
-  handleOpenPDF = () => {
-    const pdfUrl = 'assets/img/pieces.pdf';
-    fetch(pdfUrl)
-      .then(response => response.blob())
-      .then(blob => {
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.target = '_blank'; 
-        a.click();
-      });
-  }
-  
+
   render() {
     return (
       <>
@@ -77,7 +65,7 @@ class Catalogo extends React.Component {
                         <Button
                           className="btn-icon mb-3 mb-sm-0"
                           tag={Link}
-                          to="/Workplan-page"
+                          to="/brick-builder"
                         >
                           <span className="btn-inner--icon mr-1">
                             <i className="fa fa-code" />
@@ -85,6 +73,10 @@ class Catalogo extends React.Component {
                           <span className="btn-inner--text">
                             Create Assembly
                           </span>
+                        </Button>
+                        <Button href="https://github.com/PECI-Right-Move/App-Overview">
+                          <i className="fa fa-github" />
+                          <span className="btn-inner--text">Catalog</span>
                         </Button>
                       </div>
                     </Col>
@@ -121,7 +113,7 @@ class Catalogo extends React.Component {
               </Row>
               <Row className="justify-content-center">
                 <Col lg="12">
-                  {[1].map((row) => (
+                  {[1, 2].map((row) => (
                     <Row key={row} className="row-grid">
                       {[1, 2, 3].map((col) => (
                         <Col key={col} lg="4">
@@ -130,18 +122,23 @@ class Catalogo extends React.Component {
                       ))}
                     </Row>
                   ))}
+                  {/*Tem de ser manualmente pois n vai ate 3*/}
+                  <Row className="row-grid">
+                    {[1, 2].map((col) => (
+                      <Col key={col} lg="4">
+                        <Cards imgSrc={[3, col, "assemblys"]} />
+                      </Col>
+                    ))}
+                  </Row>
                 </Col>
               </Row>
               {/*!Pecas Catalogo*/}
-              <Row className="justify-content-center text-center mb-lg py-5">
-              <Col lg="6" className="text-left">
-                <h1 className="display-3">Pieces</h1>
-                <p className="lead text-muted"></p>
-              </Col>
-              <Col lg="6" className="text-right">
-                <Button onClick={this.handleOpenPDF}>Download Pieces</Button>
-              </Col>
-            </Row>
+              <Row className="justify-content-center text-center mb-lg">
+                <Col lg="8">
+                  <h2 className="display-3 text-primary py-6">Pieces</h2>
+                  <p className="lead text-muted"></p>
+                </Col>
+              </Row>
               <Row className="justify-content-center">
                 <Col lg="12">
                   {[1, 2, 3, 4, 5, 6, 7].map((row) => (

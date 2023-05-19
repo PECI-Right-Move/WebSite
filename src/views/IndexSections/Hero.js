@@ -235,7 +235,7 @@ class Hero extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                            <i className="ni ni-check-bold" />
+                            <i className="ni ni-camera-compact" />
                           </div>
                           <h6 className="text-primary text-uppercase">
                             Box diferentiation and recognition
@@ -259,45 +259,46 @@ class Hero extends React.Component {
                             className="mt-4"
                             color="primary"
                             href="#pablo"
-                            onClick={() => this.toggleModal("defaultModal")}
+                            onClick={() => this.toggleModal("firstModal")}
                           >
                             Learn more
                           </Button>
                           <Modal
                             className="modal-dialog-centered"
-                            isOpen={this.state.defaultModal}
-                            toggle={() => this.toggleModal("defaultModal")}
+                            isOpen={this.state.firstModal}
+                            toggle={() => this.toggleModal("firstModal")}
                           >
                             <div className="modal-header">
                               <h6
                                 className="modal-title"
                                 id="modal-title-default"
                               >
-                                Type your modal title
+                                Box diferentiation and recognition
                               </h6>
                               <button
                                 aria-label="Close"
                                 className="close"
                                 data-dismiss="modal"
                                 type="button"
-                                onClick={() => this.toggleModal("defaultModal")}
+                                onClick={() => this.toggleModal("firstModal")}
                               >
                                 <span aria-hidden={true}>×</span>
                               </button>
                             </div>
                             <div className="modal-body">
                               <p>
-                                Far far away, behind the word mountains, far
-                                from the countries Vokalia and Consonantia,
-                                there live the blind texts. Separated they live
-                                in Bookmarksgrove right at the coast of the
-                                Semantics, a large language ocean.
+                                {" "}
+                                The application scans the intended assembly,
+                                from the catalog provided on the website or
+                                Github, this QRcode will identify the pieces of
+                                the assembly and the order to place them.
                               </p>
                               <p>
-                                A small river named Duden flows by their place
-                                and supplies it with the necessary regelialia.
-                                It is a paradisematic country, in which roasted
-                                parts of sentences fly into your mouth.
+                                {" "}
+                                After knowing the order of the pices it will be
+                                necessary to scan the QRcode of the piece to be
+                                placed which cointains the id, color and
+                                dimensions of the piece.
                               </p>
                             </div>
                             <div className="modal-footer">
@@ -306,7 +307,7 @@ class Hero extends React.Component {
                                 color="primary"
                                 data-dismiss="modal"
                                 type="button"
-                                onClick={() => this.toggleModal("defaultModal")}
+                                onClick={() => this.toggleModal("firstModal")}
                               >
                                 Close
                               </Button>
@@ -319,7 +320,7 @@ class Hero extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                            <i className="ni ni-istanbul" />
+                            <i className="ni ni-app" />
                           </div>
                           <h6 className="text-success text-uppercase">
                             Piece recognition and placement
@@ -344,54 +345,47 @@ class Hero extends React.Component {
                             className="mt-4"
                             color="success"
                             href="#pablo"
-                            onClick={() => this.toggleModal("defaultModal")}
+                            onClick={() => this.toggleModal("secondModal")}
                           >
                             Learn more
                           </Button>
                           <Modal
                             className="modal-dialog-centered"
-                            isOpen={this.state.defaultModal}
-                            toggle={() => this.toggleModal("defaultModal")}
+                            isOpen={this.state.secondModal}
+                            toggle={() => this.toggleModal("secondModal")}
                           >
                             <div className="modal-header">
                               <h6
                                 className="modal-title text-success"
                                 id="modal-title-default"
                               >
-                                Type your modal title
+                                Piece recognition and placement
                               </h6>
                               <button
                                 aria-label="Close"
                                 className="close"
                                 data-dismiss="modal"
                                 type="button"
-                                onClick={() => this.toggleModal("defaultModal")}
+                                onClick={() => this.toggleModal("secondModal")}
                               >
                                 <span aria-hidden={true}>×</span>
                               </button>
                             </div>
                             <div className="modal-body">
                               <p>
-                                Far far away, behind the word mountains, far
-                                from the countries Vokalia and Consonantia,
-                                there live the blind texts. Separated they live
-                                in Bookmarksgrove right at the coast of the
-                                Semantics, a large language ocean.
-                              </p>
-                              <p>
-                                A small river named Duden flows by their place
-                                and supplies it with the necessary regelialia.
-                                It is a paradisematic country, in which roasted
-                                parts of sentences fly into your mouth.
+                                The application will know what piece was taken
+                                and where it should be placed, using the QRcode
+                                if the user gets it wrong the app will wait for
+                                the user to scan the right piece.
                               </p>
                             </div>
                             <div className="modal-footer">
                               <Button
                                 className="ml-auto"
-                                color="suceess"
+                                color="success"
                                 data-dismiss="modal"
                                 type="button"
-                                onClick={() => this.toggleModal("defaultModal")}
+                                onClick={() => this.toggleModal("secondModal")}
                               >
                                 Close
                               </Button>
@@ -404,7 +398,7 @@ class Hero extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                            <i className="ni ni-planet" />
+                            <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-warning text-uppercase">
                             Identification of missplaced pieces
@@ -428,45 +422,39 @@ class Hero extends React.Component {
                             className="mt-4"
                             color="warning"
                             href="#pablo"
-                            onClick={() => this.toggleModal("defaultModal")}
+                            onClick={() => this.toggleModal("thirdModal")}
                           >
                             Learn more
                           </Button>
                           <Modal
                             className="modal-dialog-centered"
-                            isOpen={this.state.defaultModal}
-                            toggle={() => this.toggleModal("defaultModal")}
+                            isOpen={this.state.thirdModal}
+                            toggle={() => this.toggleModal("thirdModal")}
                           >
                             <div className="modal-header">
                               <h6
                                 className="modal-title text-warning"
                                 id="modal-title-default"
                               >
-                                Type your modal title
+                                Identification of missplaced pieces
                               </h6>
                               <button
                                 aria-label="Close"
                                 className="close"
                                 data-dismiss="modal"
                                 type="button"
-                                onClick={() => this.toggleModal("defaultModal")}
+                                onClick={() => this.toggleModal("thirdModal")}
                               >
                                 <span aria-hidden={true}>×</span>
                               </button>
                             </div>
                             <div className="modal-body">
                               <p>
-                                Far far away, behind the word mountains, far
-                                from the countries Vokalia and Consonantia,
-                                there live the blind texts. Separated they live
-                                in Bookmarksgrove right at the coast of the
-                                Semantics, a large language ocean.
-                              </p>
-                              <p>
-                                A small river named Duden flows by their place
-                                and supplies it with the necessary regelialia.
-                                It is a paradisematic country, in which roasted
-                                parts of sentences fly into your mouth.
+                                The user must position the piece at the
+                                indicated coordinates, and later the application
+                                will recognize if the user placed the piced
+                                correctly if not it will continue to notify the
+                                user until he gets it right.
                               </p>
                             </div>
                             <div className="modal-footer">
@@ -475,7 +463,7 @@ class Hero extends React.Component {
                                 color="warning"
                                 data-dismiss="modal"
                                 type="button"
-                                onClick={() => this.toggleModal("defaultModal")}
+                                onClick={() => this.toggleModal("thirdModal")}
                               >
                                 Close
                               </Button>
@@ -491,7 +479,7 @@ class Hero extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-danger rounded-circle mb-4">
-                            <i className="ni ni-istanbul" />
+                            <i className="ni ni-fat-add" />
                           </div>
                           <h6 className="text-danger text-uppercase">
                             Management feature and Creation of sets of
@@ -511,45 +499,40 @@ class Hero extends React.Component {
                             className="mt-4"
                             color="danger"
                             href="#pablo"
-                            onClick={() => this.toggleModal("defaultModal")}
+                            onClick={() => this.toggleModal("fourthModal")}
                           >
                             Learn more
                           </Button>
                           <Modal
                             className="modal-dialog-centered"
-                            isOpen={this.state.defaultModal}
-                            toggle={() => this.toggleModal("defaultModal")}
+                            isOpen={this.state.fourthModal}
+                            toggle={() => this.toggleModal("fourthModal")}
                           >
                             <div className="modal-header">
                               <h6
                                 className="modal-title text-danger"
                                 id="modal-title-default"
                               >
-                                Type your modal title
+                                Management feature and Creation of sets of
+                                instructions
                               </h6>
                               <button
                                 aria-label="Close"
                                 className="close"
                                 data-dismiss="modal"
                                 type="button"
-                                onClick={() => this.toggleModal("defaultModal")}
+                                onClick={() => this.toggleModal("fourthModal")}
                               >
                                 <span aria-hidden={true}>×</span>
                               </button>
                             </div>
                             <div className="modal-body">
                               <p>
-                                Far far away, behind the word mountains, far
-                                from the countries Vokalia and Consonantia,
-                                there live the blind texts. Separated they live
-                                in Bookmarksgrove right at the coast of the
-                                Semantics, a large language ocean.
-                              </p>
-                              <p>
-                                A small river named Duden flows by their place
-                                and supplies it with the necessary regelialia.
-                                It is a paradisematic country, in which roasted
-                                parts of sentences fly into your mouth.
+                                In the current website the user should be able
+                                to create an assembly with a set of instructions
+                                and the website will generate a QRcode that the
+                                user can scan with the app and the app will
+                                start the assembly.
                               </p>
                             </div>
                             <div className="modal-footer">
@@ -558,7 +541,7 @@ class Hero extends React.Component {
                                 color="danger"
                                 data-dismiss="modal"
                                 type="button"
-                                onClick={() => this.toggleModal("defaultModal")}
+                                onClick={() => this.toggleModal("fourthModal")}
                               >
                                 Close
                               </Button>
