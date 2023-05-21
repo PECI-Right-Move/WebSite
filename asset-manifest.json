@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/WebSite/static/css/main.a5cdf5e9.css",
-    "main.js": "/WebSite/static/js/main.dadf10e5.js",
+    "main.css": "/WebSite/static/css/main.bc32a313.css",
+    "main.js": "/WebSite/static/js/main.3cb6fe57.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/WebSite/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/sauce.jpeg": "/WebSite/static/media/sauce.c8ce1ad5c21e5f3f454b.jpeg",
     "static/media/qrcode61.png": "/WebSite/static/media/qrcode61.6113664d7346ea94cbff.png",
@@ -76,10 +76,12 @@
     "static/media/peca72.png": "/WebSite/static/media/peca72.f9d84d5d47a4e71d5090.png",
     "static/media/nucleo-icons.woff": "/WebSite/static/media/nucleo-icons.c82c9b7c40130b7116d3.woff",
     "static/media/nucleo-icons.woff2": "/WebSite/static/media/nucleo-icons.cba267483aa6a7cb6e33.woff2",
+    "static/media/google.svg": "/WebSite/static/media/google.48149cdc74f40f2a57323b472587cb9f.svg",
+    "static/media/github.svg": "/WebSite/static/media/github.6c95555646a0ecabf549179c97bf0e7d.svg",
     "index.html": "/WebSite/index.html"
   },
   "entrypoints": [
-    "static/css/main.a5cdf5e9.css",
-    "static/js/main.dadf10e5.js"
+    "static/css/main.bc32a313.css",
+    "static/js/main.3cb6fe57.js"
   ]
 }
