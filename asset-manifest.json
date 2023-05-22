@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/WebSite/static/css/main.bc32a313.css",
-    "main.js": "/WebSite/static/js/main.3cb6fe57.js",
+    "main.js": "/WebSite/static/js/main.09771d2e.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/WebSite/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/sauce.jpeg": "/WebSite/static/media/sauce.c8ce1ad5c21e5f3f454b.jpeg",
     "static/media/qrcode61.png": "/WebSite/static/media/qrcode61.6113664d7346ea94cbff.png",
@@ -49,7 +49,7 @@
     "static/media/assembly23.png": "/WebSite/static/media/assembly23.1768d89d223143a8da96.png",
     "static/media/assembly32.png": "/WebSite/static/media/assembly32.b2bb38612dc6c917bf82.png",
     "static/media/2semfundo.png": "/WebSite/static/media/2semfundo.5a3d434212df45f13e95.png",
-    "static/media/argon-react.png": "/WebSite/static/media/argon-react.128d71d316a8e92aff4a.png",
+    "static/media/logo4semfundo.png": "/WebSite/static/media/logo4semfundo.5a165c32e323cb547110.png",
     "static/media/peca32.png": "/WebSite/static/media/peca32.d202059f6d11777b63f2.png",
     "static/media/peca81.png": "/WebSite/static/media/peca81.7d3e5f496d90462243ec.png",
     "static/media/peca62.png": "/WebSite/static/media/peca62.fa1b54901f7c72be3171.png",
@@ -82,6 +82,6 @@
   },
   "entrypoints": [
     "static/css/main.bc32a313.css",
-    "static/js/main.3cb6fe57.js"
+    "static/js/main.09771d2e.js"
   ]
 }
