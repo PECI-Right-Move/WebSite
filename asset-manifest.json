@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/WebSite/static/css/main.bc32a313.css",
-    "main.js": "/WebSite/static/js/main.09771d2e.js",
+    "main.js": "/WebSite/static/js/main.b60e9205.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/WebSite/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/sauce.jpeg": "/WebSite/static/media/sauce.c8ce1ad5c21e5f3f454b.jpeg",
     "static/media/qrcode61.png": "/WebSite/static/media/qrcode61.6113664d7346ea94cbff.png",
@@ -23,7 +23,6 @@
     "static/media/qrcode41.png": "/WebSite/static/media/qrcode41.873094109c6370cdd8b2.png",
     "static/media/qrcode72.png": "/WebSite/static/media/qrcode72.2d992ea295a1f23d0895.png",
     "static/media/qrcode31.png": "/WebSite/static/media/qrcode31.32902fda8a47160a5f33.png",
-    "static/media/landing.jpg": "/WebSite/static/media/landing.530e5e3e621fe49e8e46.jpg",
     "static/media/qrcode32.png": "/WebSite/static/media/qrcode32.39d2ef439a7b2cc3465d.png",
     "static/media/qrcode33.png": "/WebSite/static/media/qrcode33.9f50c886dade96d62fcb.png",
     "static/media/qrcode21.png": "/WebSite/static/media/qrcode21.c91696ae114cad3ec193.png",
@@ -34,7 +33,6 @@
     "static/media/qrcode23.png": "/WebSite/static/media/qrcode23.76fc4b9ca43076b798b6.png",
     "static/media/qrcode42.png": "/WebSite/static/media/qrcode42.1e248420899d6084b47e.png",
     "static/media/ricky.jpg": "/WebSite/static/media/ricky.620f78e3cefee5cc9af7.jpg",
-    "static/media/profile.jpg": "/WebSite/static/media/profile.991e6d2c8d229cc026b3.jpg",
     "static/media/bea.jpg": "/WebSite/static/media/bea.7f8257699bb5e739c106.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/WebSite/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/legos.jpg": "/WebSite/static/media/legos.2fc836a547792ed11f86.jpg",
@@ -82,6 +80,6 @@
   },
   "entrypoints": [
     "static/css/main.bc32a313.css",
-    "static/js/main.09771d2e.js"
+    "static/js/main.b60e9205.js"
   ]
 }
