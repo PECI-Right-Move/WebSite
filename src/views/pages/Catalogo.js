@@ -23,7 +23,7 @@ import { Button, Container, Row, Col } from "reactstrap";
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
-import Cards from "views/IndexSections/Cards.js";
+import Cards from "components/Card/Cards.js";
 
 class Catalogo extends React.Component {
   state = {};

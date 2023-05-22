@@ -17,7 +17,6 @@
 */
 import React from "react";
 // nodejs library that concatenates classes
-import classnames from "classnames";
 
 // reactstrap components
 import {
@@ -31,14 +30,6 @@ import {
   Row,
   Col,
 } from "reactstrap";
-
-import { ProgressSection } from "./Progress";
-
-// core components
-import CardsFooter from "components/Footers/CardsFooter.js";
-
-// index page sections
-import Download from "../IndexSections/Download.js";
 
 class Hero extends React.Component {
   state = {};
@@ -86,7 +77,7 @@ class Hero extends React.Component {
                       <Button
                         className="btn-icon mb-3 mb-sm-0"
                         color="github"
-                        href="https://github.com/PECI-Right-Move"
+                        href="https://github.com/PECI-Right-Move/App-Overview"
                         size="lg"
                         target="_blank"
                       >
@@ -326,7 +317,7 @@ class Hero extends React.Component {
                             Piece recognition and placement
                           </h6>
                           <p className="description mt-3">
-                            The app will know what piece was took form the box
+                            The app will know what piece was taken form the box
                             identifiying the piece and the correct spot to place
                             it.
                           </p>
@@ -452,7 +443,7 @@ class Hero extends React.Component {
                               <p>
                                 The user must position the piece at the
                                 indicated coordinates, and later the application
-                                will recognize if the user placed the piced
+                                will recognize if the user placed the piece
                                 correctly if not it will continue to notify the
                                 user until he gets it right.
                               </p>
@@ -531,8 +522,8 @@ class Hero extends React.Component {
                                 In the current website the user should be able
                                 to create an assembly with a set of instructions
                                 and the website will generate a QRcode that the
-                                user can scan with the app and the app will
-                                start the assembly.
+                                user can scan with the app and it will start the
+                                assembly.
                               </p>
                             </div>
                             <div className="modal-footer">
@@ -552,13 +543,6 @@ class Hero extends React.Component {
                     </Col>
                   </Row>
                 </Col>
-              </Row>
-            </Container>
-          </section>
-          <section className="section section-lg">
-            <Container>
-              <Row className="justify-content-center text-center mb-lg">
-                <ProgressSection></ProgressSection>
               </Row>
             </Container>
           </section>

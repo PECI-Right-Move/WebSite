@@ -17,17 +17,17 @@ class Roadmap extends React.Component {
   state = {};
   render() {
     const getMilestoneColor = (milestone) => {
-        switch (milestone) {
-          case "1":
-            return "#4947cf23";
-          case "2":
-            return "#f500561c";
-          case "3":
-            return "#038ea118";
-          default:
-            return "#212121";
-        }
-      };
+      switch (milestone) {
+        case "1":
+          return "#4947cf23";
+        case "2":
+          return "#f500561c";
+        case "3":
+          return "#038ea118";
+        default:
+          return "#4947cf50";
+      }
+    };
     let developmentIconStyles = {
       color: "#172b4d",
       background: "white",
@@ -58,7 +58,9 @@ class Roadmap extends React.Component {
                     isDevelopmentIcon ? <DevelopmentIcon /> : <ResearchIcon />
                   }
                   className={`milestone-${element.milestone}`}
-                  contentStyle={{background: getMilestoneColor(element.milestone)}}
+                  contentStyle={{
+                    background: getMilestoneColor(element.milestone),
+                  }}
                 >
                   <h3 className="vertical-timeline-element-title">
                     {element.title}
@@ -68,21 +70,21 @@ class Roadmap extends React.Component {
                   </h5>
                   <p id="description">{element.description}</p>
                   {element.buttons.map((button) => {
-                    
                     return (
-                        button.buttonText !== undefined &&
-                        button.buttonText !== null &&
-                        button.buttonText !== "" &&
-                      <a
-                        className={`mybutton ${
-                          isDevelopmentIcon
-                            ? "developmentButton"
-                            : "researchButton"
-                        }`}
-                        href="/"
-                      >
-                        {button.buttonText}
-                      </a>
+                      button.buttonText !== undefined &&
+                      button.buttonText !== null &&
+                      button.buttonText !== "" && (
+                        <a
+                          className={`mybutton ${
+                            isDevelopmentIcon
+                              ? "developmentButton"
+                              : "researchButton"
+                          }`}
+                          href="/"
+                        >
+                          {button.buttonText}
+                        </a>
+                      )
                     );
                   })}
                 </VerticalTimelineElement>

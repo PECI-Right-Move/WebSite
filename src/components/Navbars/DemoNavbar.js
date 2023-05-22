@@ -21,13 +21,7 @@ import { Link } from "react-router-dom";
 import Headroom from "headroom.js";
 // reactstrap components
 import {
-  Button,
   UncontrolledCollapse,
-  DropdownMenu,
-  DropdownItem,
-  DropdownToggle,
-  UncontrolledDropdown,
-  Media,
   NavbarBrand,
   Navbar,
   NavItem,
@@ -67,7 +61,7 @@ class DemoNavbar extends React.Component {
       <>
         <header className="header-global">
           <Navbar
-            className="navbar-main navbar-transparent navbar-light headroom"
+            className="navbar-main navbar-transparent navbar-light headroom "
             expand="lg"
             id="navbar-main"
           >
@@ -76,16 +70,16 @@ class DemoNavbar extends React.Component {
                 <img
                   alt="..."
                   src={require("assets/img/brand/2semfundo.png")}
-                  style={{ height: "20%", width: "20%" }}
+                  style={{ height: "80px" }}
                 />
               </NavbarBrand>
-              <button className="navbar-toggler" id="navbar_global">
+              <button className="navbar-toggler " id="navbar_global">
                 <span className="navbar-toggler-icon" />
               </button>
               <UncontrolledCollapse
                 toggler="#navbar_global"
                 navbar
-                className={this.state.collapseClasses}
+                className={`${this.state.collapseClasses} justify-content-end`}
                 onExiting={this.onExiting}
                 onExited={this.onExited}
               >
@@ -95,7 +89,8 @@ class DemoNavbar extends React.Component {
                       <Link to="/">
                         <img
                           alt="..."
-                          src={require("assets/img/brand/argon-react.png")}
+                          src={require("assets/img/brand/logo4semfundo.png")}
+                          style={{ height: "80px" }}
                         />
                       </Link>
                     </Col>
@@ -108,17 +103,17 @@ class DemoNavbar extends React.Component {
                   </Row>
                 </div>
                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
-                  <NavItem className="d-none d-lg-block ml-lg-4">
+                  <NavItem>
                     <NavLink to="/Workplan-page" tag={Link}>
                       Workplan
                     </NavLink>
                   </NavItem>
-                  <NavItem className="d-none d-lg-block ml-lg-4">
+                  <NavItem>
                     <NavLink to="/brick-builder" tag={Link}>
-                      Brick Builder
+                      BrickBuilder
                     </NavLink>
                   </NavItem>
-                  <NavItem className="d-none d-lg-block ml-lg-4">
+                  <NavItem>
                     <NavLink to="/Catalog-page" tag={Link}>
                       Catalog
                     </NavLink>

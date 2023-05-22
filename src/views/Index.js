@@ -17,14 +17,11 @@
 */
 import React from "react";
 
-// reactstrap components
-import { Container, Row } from "reactstrap";
-
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 
 // index page sections
-import Hero from "./IndexSections/Hero.js";
+import Hero from "./pages/Hero.js";
 
 class Index extends React.Component {
   componentDidMount() {
